@@ -1,5 +1,6 @@
 ## personalwebsite with CV and a portfolio of my work. 
-### link to giuhub page :  personalwebsite.github.io/ 
+### link to github page :  https://antontious.github.io/personal-website/ 
+
 Instructions
 
 Create a personal website to showcase your talents and ambitions.

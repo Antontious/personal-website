@@ -31,7 +31,7 @@ body {
 /*--- header ---*/
 
 .header {
-	background-image: url('images/water.jpg');
+	background-image: url('images/background.jpg');
 	background-size: cover;
 	background-position: center;
 	position: relative;
