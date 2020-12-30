@@ -1,22 +1,48 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
 
+.price {
+  color: grey;
+  font-size: 22px;
+}
 
-     <link rel="stylesheet" type="text/css" href="style.css">
-     
- 	<header class="page-header header container-fluid">
-	       <div class="overlay"></div>
-		<div class="description"> 
-		
-	<h1> Nobel Prize Winners Project</h1>
-	   <a class="nav-link" href="nav-buttons/nobelprizewinners.ipynb">Nobel Prize Winners Project</a>
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
 
+.card button:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
 
+<h2 style="text-align:center">Projects</h2>
 
+<div class="card">
+  <img src="nobelprize.jpg" alt="nobel prize pic" style="width:100%">
+  <h1>Nobel Prize Project</h1>
+  <p>The Nobel Prize is perhaps the world's most well known scientific award. Except for the honor, prestige and substantial prize money the recipient also gets a gold medal showing Alfred Nobel (1833 - 1896) who established the prize. Every year it's given to scientists and scholars in the categories chemistry, literature, physics, physiology or medicine, economics, and peace.</p>
 
+  <p><a href="nobelprizewinners.ipynb">View Project</a></p>
+</div>
 
-
-
-
-       </header>
+</body>
+</html>

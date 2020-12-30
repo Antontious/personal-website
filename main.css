@@ -79,6 +79,50 @@ body {
 }
 
 
+
+.content {
+	left: 50%;
+	position: absolute;
+	bottom: -35%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+
+.contents h2 {
+	color: #FFFFFF;
+}
+
+.contents p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.navigation button {
+	border: 1px solid #6ab446;
+	background: #6ab446;
+	border-radius: 0;
+	color: #fff;
+}
+
+.navigation button:hover {
+	border: 1px solid #fff;
+	background: #fff;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /*--- footer ---*/
